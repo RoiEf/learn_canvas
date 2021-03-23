@@ -1,0 +1,8 @@
+.vscode
+/build/*.js
+/build_dev/*.js
+/build_dev/*.js.map
+node_modules
+
+
+build_backup

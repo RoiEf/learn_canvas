@@ -5,6 +5,7 @@ import Header from './header';
 
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home';
+import Board from "../routes/board";
 // import Profile from '../routes/profile';
 
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
 		<Header />
 		<Router>
 			<Home path="/" />
+			<Board path="/board" />
 		</Router>
 	</div>
 )
